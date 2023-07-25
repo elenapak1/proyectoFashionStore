@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- BS cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Fashion contacto</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="barraDeMenu">
+            <img class="menuLogo" src="../assets/images/logo.png" alt="logo fashion store">
+
+            <!-- barra de navegación -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                            <a class="nav-link" href="coleccion.html#">COLECCIÓN</a>
+                            <a class="nav-link" href="promociones.html">PROMOCIONES</a>
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            <a class="nav-link" href="acerca.html">ACERCA</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="principal">
+
+        <div class="parrafo">
+            <h1>CONTACTO</h1>
+
+            <!-- describir medios de contacto -->
+            <p class="paragraph"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime mollitia pariatur deserunt sed magnam esse fuga cupiditate voluptatum corrupti consequatur nihil, voluptates nam expedita dolores ea debitis vitae at consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. In explicabo vitae, facere, praesentium accusamus at vel alias autem fugit dignissimos est voluptatibus! Beatae blanditiis quam ullam veniam itaque natus laborum!
+            </p>
+        </div>
+
+        <div class="ficha">
+            <h2>Formulario de contacto</h2>
+
+            <form class="ficha" action="form.php" method="post">
+
+                <label for="">*Nombre completo</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Juan Perez">
+
+                <label for="">*Email</label>
+                <input type="text" name="email" id="email" placeholder="user@cuenta.com">
+
+                <label for="">*Teléfono</label>
+                <input type="text" name="telefono" id="telefono" placeholder="1111111111">
+
+                <label for="">*Motivo</label>
+                <select name="motivo" id="motivo">
+                    <option value="">Seleccione</option>
+                    <option value="">Información sobre los productos</option>
+                    <option value="">Estado de pedido</option>
+                    <option value="">Cambios y devoluciones</option>
+                    <option value="">Otro motivo</option>
+                </select>
+
+                <label for="">*Mensaje</label>
+                <textarea name="" id="" cols="30" rows="10">
+            </textarea>
+
+                <input type="checkbox" name="" id="">Acepto los términos y condiciones
+
+                <input type="submit" value="ENVIAR">
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer"> <!-- ubicación y redes -->
+            <a href="https://web.whatsapp.com/"><img src="../assets/images/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.instagram.com/"><img src="../assets/images/instagram.png" alt="instagram"></a>
+            <a href="https://www.youtube.com/"><img src="../assets/images/youtube.png" alt="YouTube"></a>
+            <a href="https://www.google.com/maps"><img src="../assets/images/google-maps.png" alt="google-maps">Av. de la Moda 2023, CABA</a>
+        </div>
+    </footer>
+
+    <!-- Script BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
