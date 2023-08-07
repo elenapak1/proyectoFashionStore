@@ -1,0 +1,31 @@
+/* MAIN promociones */
+
+.promociones {
+    @include topmargin;
+
+    &__promos {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        &__img {
+            height: 50px;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            padding: 5px;
+        }
+    }
+
+    &__medios {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        &__img {
+            padding: 5%;
+        }
+    }
+}

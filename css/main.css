@@ -1,0 +1,236 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* H E A D E R */
+.titulo {
+  text-decoration: none;
+  color: #271F30;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.subtitulo {
+  text-decoration: none;
+  color: #271F30;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cabeza {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+.cabeza__logo {
+  height: 80%;
+  padding: 0 5% 0 5% 0;
+}
+.cabeza__navlink {
+  text-decoration: none;
+  color: #594733;
+  font-weight: 700;
+}
+.cabeza__navlink:hover {
+  background-color: #FAE5E7;
+}
+
+/* MAIN inicio */
+.inicio {
+  margin-top: 20vh;
+}
+.inicio__carousel {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 0 50% 0 50%;
+}
+.inicio__carousel__foto {
+  height: 299px;
+}
+.inicio__contenedor {
+  margin: 5%;
+}
+.inicio__contenedor__galeria {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.inicio__contenedor__galeria__foto {
+  height: 400px;
+  padding: 1em;
+}
+
+/* MAIN coleccion */
+.coleccion {
+  margin-top: 20vh;
+}
+.coleccion__filtro {
+  margin: 0 10% 0 10%;
+  display: flex;
+  justify-content: right;
+}
+.coleccion__galeria {
+  margin: 10vh 0 10vh 0;
+}
+.coleccion__galeria__foto {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.coleccion__galeria__foto li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coleccion__galeria__foto li img {
+  height: 200px;
+  padding: 5px;
+}
+
+/* MAIN promociones */
+.promociones {
+  margin-top: 20vh;
+}
+.promociones__promos {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.promociones__promos__img {
+  height: 50px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 5px;
+}
+.promociones__medios {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.promociones__medios__img {
+  padding: 5%;
+}
+
+/* MAIN contacto */
+.contacto {
+  margin-top: 20vh;
+}
+.contacto__medios {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacto__medios__descripcion p {
+  text-align: center;
+}
+.contacto__ficha {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+}
+.contacto__ficha__btn {
+  background-color: #fa8793;
+  border-color: #fa8793;
+}
+.contacto__ficha__btn:hover {
+  background-color: #FAE5E7;
+  border-color: #FAE5E7;
+}
+
+/* MAIN acerca */
+.acerca {
+  margin-top: 20vh;
+}
+.acerca__fotoBanner {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.acerca__cards {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  overflow: hidden;
+  height: 30vh;
+  padding: 10px;
+}
+.acerca__cards__fotoacerca {
+  width: 65%;
+}
+.acerca__cards__epigrafe {
+  width: 30%;
+  height: 30vh;
+  background-color: #FAE5E7;
+  text-align: justify;
+  padding: 10px;
+  font-size: small;
+}
+.acerca__video {
+  margin: 5% 0 5% 0;
+}
+
+/* F O O T E R */
+.pie {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 20% 5% 20%;
+}
+.pie__foto {
+  height: 25px;
+}
+
+/* MEDIA QUERIE MOBILE*/
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitulo {
+    font-size: 25px;
+  }
+  /* MAIN inicio mobile*/
+  .inicio__carousel__foto {
+    height: 200px;
+  }
+  .inicio__contenedor__galeria__foto {
+    height: 300px;
+  }
+  /* MAIN acerca mobile*/
+  .acerca__cards {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    height: 33vh;
+    overflow: hidden;
+  }
+  .acerca__cards__fotoacerca {
+    width: 100%;
+    height: 20vh;
+  }
+  .acerca__cards__epigrafe {
+    font-size: x-small;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,37 @@
+/* MAIN acerca */
+
+.acerca {
+    @include topmargin;
+
+    &__fotoBanner {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+        overflow: hidden;
+        height: 30vh;
+        padding: 10px;
+
+        &__fotoacerca {
+            width: 65%;
+        }
+
+        &__epigrafe {
+            width: 30%;
+            height: 30vh;
+            background-color: $rosa;
+            text-align: justify;
+            padding: 10px;
+            font-size: small;
+        }
+    }
+
+    &__video {
+        margin: 5% 0 5% 0;
+    }
+}

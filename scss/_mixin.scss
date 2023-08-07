@@ -1,0 +1,20 @@
+@mixin topmargin {
+    margin-top: 20vh;
+}
+
+@mixin titulo {
+    text-decoration: none;
+    color: $violeta;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+
+@mixin subtitulo {
+    text-decoration: none;
+    color: $violeta;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}

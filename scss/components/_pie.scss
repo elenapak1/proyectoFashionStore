@@ -1,0 +1,11 @@
+/* F O O T E R */
+
+.pie {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 20% 5% 20%;
+
+    &__foto {
+        height: 25px;
+    }
+}

@@ -2,132 +2,138 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap"
-        rel="stylesheet">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap"
+    rel="stylesheet">
 
-    <!-- BS cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- BS cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <!-- estilos -->
-    <link rel="stylesheet" href="../css/style.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <title>Fashion promociones</title>
+  <!-- estilos -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <title>Fashion promociones</title>
 </head>
 
 <body>
 
   <header>
     <div class="cabeza">
-        <img class="cabeza__logo" src="../assets/images/logo.png" alt="logo fashion store">
+      <img class="cabeza__logo" src="../assets/images/logo.png" alt="logo fashion store">
 
-        <!-- barra de navegación -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary cabeza__navegador">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse cabeza__navegador__barra" id="navbarNavAltMarkup">
-                    <div class="navbar-nav cabeza__navegador__barra__nav">
-                        <a class="nav-link active cabeza__navegador__barra__nav__link" aria-current="page" href="../index.html">INICIO</a>
-                        <a class="nav-link cabeza__navegador__barra__nav__link" href="coleccion.html#">COLECCIÓN</a>
-                        <a class="nav-link cabeza__navegador__barra__nav__link" href="promociones.html">PROMOCIONES</a>
-                        <a class="nav-link cabeza__navegador__barra__nav__link" href="contacto.html">CONTACTO</a>
-                        <a class="nav-link cabeza__navegador__barra__nav__link" href="acerca.html">ACERCA</a>
-                    </div>
-                </div>
+      <!-- barra de navegación -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active cabeza__navlink" aria-current="page" href="../index.html">INICIO</a>
+              <a class="nav-link cabeza__navlink" href="coleccion.html#">COLECCIÓN</a>
+              <a class="nav-link cabeza__navlink" href="promociones.html">PROMOCIONES</a>
+              <a class="nav-link cabeza__navlink" href="contacto.html">CONTACTO</a>
+              <a class="nav-link cabeza__navlink" href="acerca.html">ACERCA</a>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </div>
-</header>
+  </header>
 
-    <main class="principal">
+  <main class="promociones">
 
-        <div class="parrafo">
-            <h1>PROMOCIONES</h1>
+    <div class="promociones__promos">
+      <p class="titulo animate__animated animate__heartBeat animate__slow	2s">PROMOCIONES</p>
 
-            <!-- describir descuentos y promociones-->
-            <div class="card mb-3" >
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../assets/images/promociones1.png" class="img-fluid rounded-start" alt="logo AMEX">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">20% Off</h5>
-                      <p class="card-text">y en 3 cuotas sin interés</p>
-                      <p class="card-text"><small class="text-body-secondary">con tarjetas de crédito AMEX puras y bancarias</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-              <div class="card mb-3" >
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../assets/images/promociones2.png" class="img-fluid rounded-start" alt="logo BBVA">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">30% Off</h5>
-                      <p class="card-text">y en 3 cuotas sin interés</p>
-                      <p class="card-text"><small class="text-body-secondary">con tarjetas de crédito Visa y Martercard de BBVA</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card mb-3" >
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../assets/images/promociones3.png" class="img-fluid rounded-start" alt="logo Galicia">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">25% Off</h5>
-                      <p class="card-text">y hasta 6 cuotas sin interés</p>
-                      <p class="card-text"><small class="text-body-secondary">con tarjetas Galicia</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
+      <!-- describir descuentos y promociones-->
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4 promociones__promos__img">
+            <img src="../assets/images/promociones1.png" class="img-fluid rounded-start" alt="logo AMEX">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">20% Off</h5>
+              <p class="card-text">y en 3 cuotas sin interés</p>
+              <p class="card-text"><small class="text-body-secondary">con tarjetas de crédito AMEX puras y
+                  bancarias</small></p>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="parrafo">
-            <h2>Medios de pago</h2>
-
-            <!-- enumerar medios de pagos (efectivo, tarjeta, MP, transferencia)-->
-
-           
-            <img src="../assets/images/promocionesmedios.png" alt="medios de pago"  class="imagenes">
-        
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4 promociones__promos__img">
+            <img src="../assets/images/promociones2.png" class="img-fluid rounded-start" alt="logo BBVA">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">30% Off</h5>
+              <p class="card-text">y en 3 cuotas sin interés</p>
+              <p class="card-text"><small class="text-body-secondary">con tarjetas de crédito Visa y Martercard de
+                  BBVA</small></p>
+            </div>
+          </div>
         </div>
-    </main>
+      </div>
 
-    <footer>
-        <div class="footer"> <!-- ubicación y redes -->
-            <a href="https://web.whatsapp.com/"><img src="../assets/images/whatsapp.png" alt="whatsapp"></a>
-            <a href="https://www.instagram.com/"><img src="../assets/images/instagram.png" alt="instagram"></a>
-            <a href="https://www.youtube.com/"><img src="../assets/images/youtube.png" alt="YouTube"></a>
-            <a href="https://www.google.com/maps"><img src="../assets/images/google-maps.png" alt="google-maps">Av.
-                de la Moda 2023, CABA</a>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4 promociones__promos__img">
+            <img src="../assets/images/promociones3.png" class="img-fluid rounded-start" alt="logo Galicia">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">25% Off</h5>
+              <p class="card-text">y hasta 6 cuotas sin interés</p>
+              <p class="card-text"><small class="text-body-secondary">con tarjetas Galicia</small></p>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
 
-    <!-- Script BS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+    </div>
+
+    <div class="promociones__medios">
+      <p class="subtitulo">Medios de pago</p>
+
+      <!-- enumerar medios de pagos (efectivo, tarjeta, MP, transferencia)-->
+
+
+      <img src="../assets/images/promocionesmedios.png" alt="medios de pago" class="promociones__medios__img">
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="pie"> <!-- ubicación y redes -->
+      <a href="https://web.whatsapp.com/"><img class="pie__foto" src="../assets/images/whatsapp.png" alt="whatsapp"></a>
+      <a href="https://www.instagram.com/"><img class="pie__foto" src="../assets/images/instagram.png"
+          alt="instagram"></a>
+      <a href="https://www.youtube.com/"><img class="pie__foto" src="../assets/images/youtube.png" alt="YouTube"></a>
+      <a href="https://www.google.com/maps"><img class="pie__foto" src="../assets/images/google-maps.png"
+          alt="google-maps">Av.
+        de la Moda 2023, CABA</a>
+    </div>
+  </footer>
+
+  <!-- Script BS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </body>
 

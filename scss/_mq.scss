@@ -1,0 +1,46 @@
+/* MEDIA QUERIE MOBILE*/
+
+@media (max-width: 576px) {
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .subtitulo {
+        font-size: 25px;
+    }
+
+    /* MAIN inicio mobile*/
+    .inicio__carousel__foto {
+        height: 200px;
+    }
+
+    .inicio__contenedor__galeria__foto {
+        height: 300px;
+    }
+
+    /* MAIN acerca mobile*/
+
+    .acerca {
+
+        &__cards {
+            display: flex;
+            flex-direction: column;
+            flex-flow: wrap;
+            height: 33vh;
+            overflow: hidden;
+
+            &__fotoacerca {
+                width: 100%;
+                height: 20vh;
+            }
+
+            &__epigrafe {
+                font-size: x-small;
+                width: 100%;
+                height: 10vh;
+                margin: 0;
+            }
+        }
+    }
+}

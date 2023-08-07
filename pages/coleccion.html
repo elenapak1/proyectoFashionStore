@@ -18,6 +18,7 @@
 
     <!-- estilos -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <title>Fashion colección</title>
 </head>
@@ -29,20 +30,21 @@
             <img class="cabeza__logo" src="../assets/images/logo.png" alt="logo fashion store">
 
             <!-- barra de navegación -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary cabeza__navegador">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse cabeza__navegador__barra" id="navbarNavAltMarkup">
-                        <div class="navbar-nav cabeza__navegador__barra__nav">
-                            <a class="nav-link active cabeza__navegador__barra__nav__link" aria-current="page" href="../index.html">INICIO</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="coleccion.html#">COLECCIÓN</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="promociones.html">PROMOCIONES</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="contacto.html">CONTACTO</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="acerca.html">ACERCA</a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active cabeza__navlink" aria-current="page"
+                                href="../index.html">INICIO</a>
+                            <a class="nav-link cabeza__navlink" href="coleccion.html#">COLECCIÓN</a>
+                            <a class="nav-link cabeza__navlink" href="promociones.html">PROMOCIONES</a>
+                            <a class="nav-link cabeza__navlink" href="contacto.html">CONTACTO</a>
+                            <a class="nav-link cabeza__navlink" href="acerca.html">ACERCA</a>
                         </div>
                     </div>
                 </div>
@@ -50,12 +52,12 @@
         </div>
     </header>
 
-    <main class="principal">
+    <main class="coleccion">
 
-        <h1>COLECCIÓN</h1>
+        <p class="titulo">COLECCIÓN</p>
 
         <!-- averiguar: usuario pueda buscar, ordenar, filtrar... en colección-->
-        <div class="filtro">
+        <div class="coleccion__filtro">
             <form action="">
                 <select name="" id="">
                     <option value="">Ordenar</option>
@@ -65,8 +67,8 @@
             </form>
         </div>
 
-        <div class="coleccion">
-            <ul class="fotoColeccion">
+        <div class="coleccion__galeria">
+            <ul class="coleccion__galeria__foto">
                 <li><img src="../assets/images/coleccion01.jpg" alt="coleccion01">
                     <p>descripcion</p>
                     <p>colores</p>
@@ -156,11 +158,15 @@
     </main>
 
     <footer>
-        <div class="footer"> <!-- ubicación y redes -->
-            <a href="https://web.whatsapp.com/"><img src="../assets/images/whatsapp.png" alt="whatsapp"></a>
-            <a href="https://www.instagram.com/"><img src="../assets/images/instagram.png" alt="instagram"></a>
-            <a href="https://www.youtube.com/"><img src="../assets/images/youtube.png" alt="YouTube"></a>
-            <a href="https://www.google.com/maps"><img src="../assets/images/google-maps.png" alt="google-maps">Av.
+        <div class="pie"> <!-- ubicación y redes -->
+            <a href="https://web.whatsapp.com/"><img class="pie__foto" src="../assets/images/whatsapp.png"
+                    alt="whatsapp"></a>
+            <a href="https://www.instagram.com/"><img class="pie__foto" src="../assets/images/instagram.png"
+                    alt="instagram"></a>
+            <a href="https://www.youtube.com/"><img class="pie__foto" src="../assets/images/youtube.png"
+                    alt="YouTube"></a>
+            <a href="https://www.google.com/maps"><img class="pie__foto" src="../assets/images/google-maps.png"
+                    alt="google-maps">Av.
                 de la Moda 2023, CABA</a>
         </div>
     </footer>

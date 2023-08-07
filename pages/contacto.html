@@ -18,6 +18,7 @@
 
     <!-- estilos -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <title>Fashion contacto</title>
 </head>
@@ -29,20 +30,21 @@
             <img class="cabeza__logo" src="../assets/images/logo.png" alt="logo fashion store">
 
             <!-- barra de navegación -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary cabeza__navegador">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse cabeza__navegador__barra" id="navbarNavAltMarkup">
-                        <div class="navbar-nav cabeza__navegador__barra__nav">
-                            <a class="nav-link active cabeza__navegador__barra__nav__link" aria-current="page" href="../index.html">INICIO</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="coleccion.html#">COLECCIÓN</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="promociones.html">PROMOCIONES</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="contacto.html">CONTACTO</a>
-                            <a class="nav-link cabeza__navegador__barra__nav__link" href="acerca.html">ACERCA</a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active cabeza__navlink" aria-current="page"
+                                href="../index.html">INICIO</a>
+                            <a class="nav-link cabeza__navlink" href="coleccion.html#">COLECCIÓN</a>
+                            <a class="nav-link cabeza__navlink" href="promociones.html">PROMOCIONES</a>
+                            <a class="nav-link cabeza__navlink" href="contacto.html">CONTACTO</a>
+                            <a class="nav-link cabeza__navlink" href="acerca.html">ACERCA</a>
                         </div>
                     </div>
                 </div>
@@ -50,38 +52,40 @@
         </div>
     </header>
 
-    <main class="principal">
+    <main class="contacto">
 
-        <div class="parrafo">
-            <h1>CONTACTO</h1>
+        <div class="contacto__medios">
+            <p class="titulo">CONTACTO</p>
 
             <!-- describir medios de contacto -->
-            <p class="paragraph"> Para comunicarse con Fashion Store, pueden comunicarse de lunes a viernes de 8 a 20hs
-                a través de:
-            </p>
-            <p class="paragraph">
-                - WhatsApp al +54 9 11 3274 4667
-            </p>
-            <p class="paragraph">
-                - Instagram @fashionstore
-            </p>
-            <p class="paragraph">
-                - completando el siguiente formulario
-            </p>
+            <div class="contacto__medios__descripcion">
+                <p> Para comunicarse con Fashion Store, pueden comunicarse de lunes a viernes de 8 a 20hs a través de:
+                </p>
+                <p>
+                    - WhatsApp al +54 9 11 3274 4667
+                </p>
+                <p>
+                    - Instagram @fashionstore
+                </p>
+                <p>
+                    - completando el siguiente formulario
+                </p>
+            </div>
         </div>
 
-        <div class="ficha">
-            <h2>Formulario de contacto</h2>
+        <div class="contacto__ficha">
+            <p class="subtitulo">Formulario de contacto</p>
 
             <form>
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">Nombre completo</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Perez">
                 </div>
-                  
+
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email </label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="user@cuenta.com">
+                    <label for="exampleInputEmail1" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="user@cuenta.com">
                 </div>
 
                 <div class="mb-3">
@@ -97,19 +101,19 @@
                         <option value="2">Estado de pedido</option>
                         <option value="3">Cambios y devoluciones</option>
                         <option value="4">Otro motivo</option>
-                      </select>
+                    </select>
                 </div>
 
                 <div class="mb-3">
                     <label for="" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
                 </div>
-                <button type="submit" class="btn btn-primary">ENVIAR</button>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary contacto__ficha__btn">ENVIAR</button>
             </form>
 
         </div>
@@ -117,11 +121,15 @@
     </main>
 
     <footer>
-        <div class="footer"> <!-- ubicación y redes -->
-            <a href="https://web.whatsapp.com/"><img src="../assets/images/whatsapp.png" alt="whatsapp"></a>
-            <a href="https://www.instagram.com/"><img src="../assets/images/instagram.png" alt="instagram"></a>
-            <a href="https://www.youtube.com/"><img src="../assets/images/youtube.png" alt="YouTube"></a>
-            <a href="https://www.google.com/maps"><img src="../assets/images/google-maps.png" alt="google-maps">Av. de
+        <div class="pie"> <!-- ubicación y redes -->
+            <a href="https://web.whatsapp.com/"><img class="pie__foto" src="../assets/images/whatsapp.png"
+                    alt="whatsapp"></a>
+            <a href="https://www.instagram.com/"><img class="pie__foto" src="../assets/images/instagram.png"
+                    alt="instagram"></a>
+            <a href="https://www.youtube.com/"><img class="pie__foto" src="../assets/images/youtube.png"
+                    alt="YouTube"></a>
+            <a href="https://www.google.com/maps"><img class="pie__foto" src="../assets/images/google-maps.png"
+                    alt="google-maps">Av. de
                 la Moda 2023, CABA</a>
         </div>
     </footer>

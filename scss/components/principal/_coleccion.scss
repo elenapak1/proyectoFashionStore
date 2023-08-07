@@ -1,0 +1,34 @@
+/* MAIN coleccion */
+.coleccion {
+    @include topmargin;
+
+    &__filtro {
+        margin: 0 10% 0 10%;
+        display: flex;
+        justify-content: right;
+    }
+
+    &__galeria {
+        margin: 10vh 0 10vh 0;
+
+        &__foto {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+            justify-content: center;
+
+            & li {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                & img {
+                    height: 200px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

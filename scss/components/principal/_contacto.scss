@@ -1,0 +1,32 @@
+/* MAIN contacto */
+
+.contacto {
+    @include topmargin;
+
+    &__medios {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        &__descripcion p {
+            text-align: center;
+        }
+    }
+
+    &__ficha {
+        display: flex;
+        flex-direction: column;
+        padding: 5% 10%;
+
+        &__btn {
+            background-color: $fucsia;
+            border-color: $fucsia;
+
+            &:hover {
+                background-color: $rosa;
+                border-color: $rosa;
+            }
+        }
+    }
+}
