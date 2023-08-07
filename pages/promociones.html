@@ -24,32 +24,31 @@
 
 <body>
 
-    <header>
-        <div class="barraDeMenu">
-            <img class="menuLogo" src="../assets/images/logo.png" alt="logo fashion store">
+  <header>
+    <div class="cabeza">
+        <img class="cabeza__logo" src="../assets/images/logo.png" alt="logo fashion store">
 
-            <!-- barra de navegación -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
-                            <a class="nav-link" href="coleccion.html#">COLECCIÓN</a>
-                            <a class="nav-link" href="promociones.html">PROMOCIONES</a>
-                            <a class="nav-link" href="contacto.html">CONTACTO</a>
-                            <a class="nav-link" href="acerca.html">ACERCA</a>
-                        </div>
+        <!-- barra de navegación -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary cabeza__navegador">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse cabeza__navegador__barra" id="navbarNavAltMarkup">
+                    <div class="navbar-nav cabeza__navegador__barra__nav">
+                        <a class="nav-link active cabeza__navegador__barra__nav__link" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link cabeza__navegador__barra__nav__link" href="coleccion.html#">COLECCIÓN</a>
+                        <a class="nav-link cabeza__navegador__barra__nav__link" href="promociones.html">PROMOCIONES</a>
+                        <a class="nav-link cabeza__navegador__barra__nav__link" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link cabeza__navegador__barra__nav__link" href="acerca.html">ACERCA</a>
                     </div>
                 </div>
-            </nav>
-
-        </div>
-    </header>
+            </div>
+        </nav>
+    </div>
+</header>
 
     <main class="principal">
 
@@ -57,16 +56,61 @@
             <h1>PROMOCIONES</h1>
 
             <!-- describir descuentos y promociones-->
-            <p class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui ipsa in. Modi, nobis omnis! Distinctio quia tenetur iusto deleniti possimus perspiciatis necessitatibus accusamus, magnam quam? Facilis, aperiam? Quo, adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. In commodi omnis quidem molestias asperiores minima dolor dolore unde porro ut enim ad amet, reiciendis doloribus aperiam, laboriosam sint dolorum expedita?
-            </p>
+            <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../assets/images/promociones1.png" class="img-fluid rounded-start" alt="logo AMEX">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">20% Off</h5>
+                      <p class="card-text">y en 3 cuotas sin interés</p>
+                      <p class="card-text"><small class="text-body-secondary">con tarjetas de crédito AMEX puras y bancarias</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../assets/images/promociones2.png" class="img-fluid rounded-start" alt="logo BBVA">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">30% Off</h5>
+                      <p class="card-text">y en 3 cuotas sin interés</p>
+                      <p class="card-text"><small class="text-body-secondary">con tarjetas de crédito Visa y Martercard de BBVA</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../assets/images/promociones3.png" class="img-fluid rounded-start" alt="logo Galicia">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">25% Off</h5>
+                      <p class="card-text">y hasta 6 cuotas sin interés</p>
+                      <p class="card-text"><small class="text-body-secondary">con tarjetas Galicia</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
         </div>
 
         <div class="parrafo">
             <h2>Medios de pago</h2>
 
             <!-- enumerar medios de pagos (efectivo, tarjeta, MP, transferencia)-->
-            <p class="paragraph"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias ad quaerat, est, cupiditate necessitatibus quae iste reiciendis incidunt fugiat, odio ab labore ducimus illum harum blanditiis reprehenderit sequi voluptates minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eum explicabo quis ipsa in laudantium itaque, distinctio natus, similique laboriosam esse ipsam neque cupiditate facilis ut, repellendus accusantium a earum?
-            </p>
+
+           
+            <img src="../assets/images/promocionesmedios.png" alt="medios de pago"  class="imagenes">
+        
         </div>
     </main>
 
